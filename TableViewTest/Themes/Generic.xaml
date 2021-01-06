@@ -132,7 +132,7 @@
     <ControlTemplate x:Key="TabViewItemHeaderTemplate"
                      TargetType="controls:TabViewItem">
         <Grid x:Name="LayoutRoot"
-              ex:FrameworkElementExtensions.AncestorType="local:TabView"
+              ex:FrameworkElementExtensions.AncestorType="local:CustomTabView"
               Background="{TemplateBinding Background}"
               BorderBrush="{TemplateBinding BorderBrush}"
               BorderThickness="{TemplateBinding BorderThickness}"
