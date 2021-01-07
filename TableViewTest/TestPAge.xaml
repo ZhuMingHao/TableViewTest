@@ -12,7 +12,7 @@
     <Page.Resources />
     <Grid>
 
-        <local:CustomTabView>
+        <comm:TabView>
             <comm:TabViewItem Header="Home" Icon="Home">
                 <TextBlock Padding="16">The TabView control has multiple uses.</TextBlock>
             </comm:TabViewItem>
@@ -28,6 +28,6 @@
                 IsClosable="False">
                 <TextBlock Padding="16">This tab isn't closable because its IsClosable property is set to False, even when CanCloseTabs is True.</TextBlock>
             </comm:TabViewItem>
-        </local:CustomTabView>
+        </comm:TabView>
     </Grid>
 </Page>
